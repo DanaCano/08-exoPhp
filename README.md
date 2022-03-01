@@ -26,13 +26,13 @@ CREATE TABLE player(
 )ENGINE=InnoDB charset=UTF8;
 
 
-INSERT INTO player (id_player, nom, prenom, age, poste, presentation, message) VALUES
-(1, 'Nuno', 'Mendes', 19, 'defenseur', 'Meilleur pied : Gauche - Équipe nationale : Portugal', ''),
-(2, 'Lionel', 'Messi', 34, 'attaquant', 'Meilleur pied : Gauche - Équipe nationale : Portugal', ''),
-(3, 'Sergio', 'Ramos', 31, 'attaquant', 'Meilleur pied : Gauche - Équipe nationale : FRANCE', ''),
-(4, 'Aaaa', 'hbbbb', 36, 'attaquant', 'Meilleur pied : Gauche - Équipe nationale : ITALIE', ''),
-(5, 'Bbbb', 'Ramhyugugos', 38, 'defenseur', 'Meilleur pied : Gauche - Équipe nationale : ALLEMAGNE', '');
-----------------------------------------------------
+	INSERT INTO player (id_player, nom, prenom, age, poste, presentation, message) VALUES
+	(1, 'Nuno', 'Mendes', 19, 'defenseur', 'Meilleur pied : Gauche - Équipe nationale : Portugal', ''),
+	(2, 'Lionel', 'Messi', 34, 'attaquant', 'Meilleur pied : Gauche - Équipe nationale : Portugal', ''),
+	(3, 'Sergio', 'Ramos', 31, 'attaquant', 'Meilleur pied : Gauche - Équipe nationale : FRANCE', ''),
+	(4, 'Aaaa', 'hbbbb', 36, 'attaquant', 'Meilleur pied : Gauche - Équipe nationale : ITALIE', ''),
+	(5, 'Bbbb', 'Ramhyugugos', 38, 'defenseur', 'Meilleur pied : Gauche - Équipe nationale : ALLEMAGNE', '');
+	----------------------------------------------------
 
 1 - création d'une page : "accueil.php" 
 	  -> menu avec 2 liens :	
